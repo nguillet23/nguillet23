@@ -1,16 +1,23 @@
-## Hi there 👋
+# Nicholas Guillet
 
-<!--
-**nguillet23/nguillet23** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Computer Engineer** at Villanova University • Interested in Backend Development
+---
 
-Here are some ideas to get you started:
+## About
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Outside of coding and working on other side projects, I play competitive Ultiamte Frisbee
+
+---
+
+<!---## Projects
+
+- **[Project Name](link)** – [Brief description]
+--->
+
+## Tech
+
+Python • TypeScript • React • Node.js • PostgreSQL * 
+
+---
+
+**[Email](mailto:nguillet@villanova.edu) · [LinkedIn]([#](https://www.linkedin.com/in/nicholas-guillet/)) · [Portfolio]([#](https://nguillet23.github.io/GuilletPersonalWebsite/))**
