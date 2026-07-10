@@ -20,4 +20,4 @@ Python • TypeScript • React • Node.js • PostgreSQL *
 
 ---
 
-**[Email](mailto:nguillet@villanova.edu) · [LinkedIn]([https://www.linkedin.com/in/nicholas-guillet/](https://www.linkedin.com/in/nicholas-guillet/)) · [Portfolio]([[#](https://www.linkedin.com/in/nicholas-guillet/)](https://nguillet23.github.io/GuilletPersonalWebsite/))**
+**[Email](mailto:nguillet@villanova.edu) · [LinkedIn]([https://www.linkedin.com/in/nicholas-guillet/]) · [Portfolio]([[#](https://www.linkedin.com/in/nicholas-guillet/)])**
