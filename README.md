@@ -85,7 +85,7 @@
   .project-item:nth-child(3) { animation-delay: 4.8s; }
   
   .project-item a {
-    color: var(--text-accent, #0066cc);
+    color: #0366d6;
     text-decoration: none;
     font-weight: 500;
   }
@@ -98,7 +98,6 @@
     margin-top: 2rem;
     padding-top: 1.5rem;
     border-top: 1px solid currentColor;
-    border-top-opacity: 0.2;
     opacity: 0;
     animation: fadeIn 0.8s ease forwards 5.3s;
   }
@@ -113,7 +112,7 @@
   }
   
   .contact-links a {
-    color: var(--text-primary);
+    color: #24292e;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -127,7 +126,7 @@
   .contact-links a:nth-child(3) { animation-delay: 6.1s; }
   
   .contact-links a:hover {
-    background: var(--bg-accent, rgba(0, 102, 204, 0.1));
+    background: rgba(3, 102, 214, 0.1);
     transform: translateY(-2px);
   }
   
@@ -188,6 +187,27 @@
   <div class="tech-stack">
     Python • TypeScript • React • Node.js • PostgreSQL
   </div>
+  <!----
+  <div class="projects-section">
+    <h2>Projects</h2>
+    <div class="project-item">
+      <a href="https://github.com/nguillet">Project Name</a> – Brief description of what it does
+    </div>
+    <div class="project-item">
+      <a href="https://github.com/nguillet">Another Project</a> – What makes it cool and highlights your skills
+    </div>
+    <div class="project-item">
+      <a href="https://github.com/nguillet">Third Project</a> – Additional project showcasing backend expertise
+    </div>
+  </div>
+---->
+  <div class="contact-section">
+    <div class="contact-links">
+      <a href="mailto:nguillet@villanova.edu">Email</a>
+      <a href="https://www.linkedin.com/in/nicholas-guillet/">LinkedIn</a>
+      <a href="https://nguillet23.github.io/GuilletPersonalWebsite/">Portfolio</a>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -225,24 +245,27 @@
   
   typeTitle();
 </script>
-<!----
-<div class="projects-section">
-  <h2>Projects</h2>
-  <div class="project-item">
-    <a href="#">[Project Name]</a> – Brief description of what it does
-  </div>
-  <div class="project-item">
-    <a href="#">[Another Project]</a> – What makes it cool and highlights your skills
-  </div>
-  <div class="project-item">
-    <a href="#">[Third Project]</a> – Additional project showcasing backend expertise
-  </div>
-</div>
----->
-<div class="contact-section">
-  <div class="contact-links">
-    <a href="mailto:nguillet@villanova.edu">Email</a>
-    <a href="https://www.linkedin.com/in/nicholas-guillet/">LinkedIn</a>
-    <a href="https://nguillet23.github.io/GuilletPersonalWebsite/">Portfolio</a>
-  </div>
-</div>
+
+---
+
+## About
+
+Outside of coding and working on other side projects, I play competitive Ultimate Frisbee
+
+---
+
+## Tech Stack
+
+**Languages:** Python • TypeScript • JavaScript
+
+**Frontend:** React
+
+**Backend:** Node.js • Express
+
+**Database:** PostgreSQL
+
+---
+
+## Contact
+
+**[Email](mailto:nguillet@villanova.edu) · [LinkedIn](https://www.linkedin.com/in/nicholas-guillet/) · [Portfolio](https://nguillet23.github.io/GuilletPersonalWebsite/)**
