@@ -1,4 +1,4 @@
-![Nicholas Guillet Profile](nicholas_guillet_animated.svg)
+![Nicholas Guillet Profile](GuilletProfile.svg)
 
 ---
 
