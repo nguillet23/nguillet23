@@ -1,146 +1,128 @@
-<svg viewBox="0 0 1200 1400" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .header-bg { fill: #0d1117; }
-      .card-bg { fill: #161b22; }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+      @keyframes slideInLeft {
+        from {
+          opacity: 0;
+          transform: translateX(-30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      @keyframes slideInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      @keyframes glowPulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.7;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      @keyframes subtleGlow {
+        0%, 100% {
+          filter: drop-shadow(0 0 0px #58a6ff);
+        }
+        50% {
+          filter: drop-shadow(0 0 8px #58a6ff);
+        }
+      }
+      
+      .bg { fill: #0d1117; }
       .border { stroke: #30363d; stroke-width: 1; }
-      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; font-weight: 700; fill: #c9d1d9; }
-      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 20px; font-weight: 600; fill: #79c0ff; }
-      .section-title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #c9d1d9; }
-      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #8b949e; }
-      .text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #c9d1d9; }
-      .tech-tag { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #79c0ff; }
-      .accent { fill: #58a6ff; }
+      .name { 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        font-size: 48px; 
+        font-weight: 700; 
+        fill: #c9d1d9;
+        animation: slideInLeft 0.8s ease-out;
+      }
+      .subtitle { 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        font-size: 18px; 
+        fill: #79c0ff;
+        animation: slideInLeft 0.8s ease-out 0.15s both;
+      }
+      .text { 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        font-size: 15px; 
+        fill: #8b949e;
+        animation: slideInUp 0.8s ease-out 0.3s both;
+      }
+      .accent { 
+        fill: #58a6ff;
+        animation: glowPulse 2s ease-in-out infinite;
+      }
+      .tech-text {
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        font-size: 15px; 
+        fill: #8b949e;
+        animation: slideInUp 0.8s ease-out 0.45s both;
+      }
+      .links-text {
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        font-size: 15px;
+        animation: slideInUp 0.8s ease-out 0.6s both;
+      }
+      .divider {
+        stroke: #30363d;
+        stroke-width: 1;
+        animation: slideInUp 0.8s ease-out 0.45s both;
+      }
     </style>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="1400" class="header-bg"/>
+  <rect width="800" height="300" class="bg"/>
+  <rect width="800" height="300" class="border"/>
 
-  <!-- Header Section -->
-  <rect width="1200" height="220" class="header-bg" class="border"/>
-  
-  <text x="60" y="70" class="title">Nicholas Guillet</text>
-  <text x="60" y="110" class="subtitle">Computer Engineer @ Villanova</text>
-  
-  <text x="60" y="150" class="text">📍 Atlanta, GA | Rising Senior | Software & Data Engineering</text>
-  <text x="60" y="175" class="text">✉️ nguillet@villanova.edu | 🔗 GitHub: nguillet23 | 💼 LinkedIn: nicholas-guillet</text>
+  <!-- Accent bar with pulsing glow -->
+  <rect width="800" height="4" class="accent"/>
 
-  <!-- Quick Stats -->
-  <rect x="60" y="190" width="1080" height="1" class="border"/>
-  <text x="60" y="215" class="label">GPA: 3.9/4.0 (Tech) • Dean's List • 4 Major Projects • Intern @ Construct Connect</text>
-
-  <!-- Experience Section -->
-  <rect x="60" y="250" width="520" height="300" class="card-bg" class="border" rx="8"/>
-  <text x="85" y="280" class="section-title">💼 EXPERIENCE</text>
+  <!-- Content -->
+  <text x="60" y="80" class="name">Nicholas Guillet</text>
   
-  <text x="85" y="310" class="text" font-weight="600">Product Management Intern</text>
-  <text x="85" y="330" class="label">Construct Connect • June 2026 - Present</text>
-  <text x="85" y="350" class="text">🔹 400% efficiency gain via automation</text>
-  <text x="85" y="368" class="text">🔹 Refined ML labels & synthetic data pipeline</text>
+  <text x="60" y="130" class="subtitle">Computer Engineer @ Villanova</text>
+  <text x="60" y="160" class="text">Data Science • Data Engineering • ML/AI Engineer</text>
   
-  <text x="85" y="400" class="text" font-weight="600">Math Tutor</text>
-  <text x="85" y="420" class="label">Villanova Math Center • June 2025 - Present</text>
-  <text x="85" y="440" class="text">Calculus I-III, Linear Algebra</text>
+  <!-- Divider -->
+  <line x1="60" y1="185" x2="740" y2="185" class="divider"/>
   
-  <text x="85" y="470" class="text" font-weight="600">Technical Intern</text>
-  <text x="85" y="490" class="label">HomeOwners Advantage • July 2025</text>
-  <text x="85" y="510" class="text">50% reduction in manual data extraction</text>
-
-  <!-- Education Section -->
-  <rect x="620" y="250" width="520" height="300" class="card-bg" class="border" rx="8"/>
-  <text x="645" y="280" class="section-title">🎓 EDUCATION</text>
+  <!-- Tech badges -->
+  <text x="60" y="225" class="tech-text">Python • TypeScript • React • Node.js • PostgreSQL</text>
   
-  <text x="645" y="310" class="text" font-weight="600">B.S. Computer Engineering</text>
-  <text x="645" y="330" class="label">Villanova University • 2023-2027</text>
-  <text x="645" y="350" class="text">Tech GPA: 3.9/4.0 • Dean's List (All Semesters)</text>
-  <text x="645" y="370" class="text">Minors: CS, Business, Mathematics</text>
-  
-  <text x="645" y="410" class="text" font-weight="600">M.S. Sports & Performance Engineering</text>
-  <text x="645" y="430" class="label">Villanova University • 2027-2028</text>
-  
-  <text x="645" y="470" class="text" font-weight="600">Saint Francis High School</text>
-  <text x="645" y="490" class="label">Graduated 2023 • GPA: 4.0/4.0</text>
-  <text x="645" y="510" class="text">Top 10% of class • Beta Club, NHS</text>
-
-  <!-- Projects Section -->
-  <rect x="60" y="580" width="1080" height="420" class="card-bg" class="border" rx="8"/>
-  <text x="85" y="610" class="section-title">🚀 PROJECTS</text>
-
-  <!-- Project 1 -->
-  <rect x="85" y="630" width="240" height="160" fill="#1c2128" rx="4"/>
-  <text x="100" y="655" class="text" font-weight="600">XR Lacrosse Training</text>
-  <text x="100" y="675" class="label">Extended-reality training system</text>
-  <text x="100" y="695" class="text">Unity • MagicLeap • C#</text>
-  <text x="100" y="720" class="text">GitHub Link Available</text>
-  
-  <!-- Project 2 -->
-  <rect x="360" y="630" width="240" height="160" fill="#1c2128" rx="4"/>
-  <text x="375" y="655" class="text" font-weight="600">HOA Macros</text>
-  <text x="375" y="675" class="label">Document automation tooling</text>
-  <text x="375" y="695" class="text">Python • HTML • TypeScript</text>
-  <text x="375" y="720" class="text">50%+ manual effort reduction</text>
-  
-  <!-- Project 3 -->
-  <rect x="635" y="630" width="240" height="160" fill="#1c2128" rx="4"/>
-  <text x="650" y="655" class="text" font-weight="600">Frisbee Evaluation</text>
-  <text x="650" y="675" class="label">Performance statistical model</text>
-  <text x="650" y="695" class="text">Python • HTML</text>
-  <text x="650" y="720" class="text">Dashboard • Play-by-play analysis</text>
-  
-  <!-- Project 4 -->
-  <rect x="910" y="630" width="230" height="160" fill="#1c2128" rx="4"/>
-  <text x="925" y="655" class="text" font-weight="600">Baseball Analysis</text>
-  <text x="925" y="675" class="label">MLB Statcast data pipeline</text>
-  <text x="925" y="695" class="text">Python • HTML</text>
-  <text x="925" y="720" class="text">Visualization toolkit</text>
-
-  <!-- Skills Bar -->
-  <g transform="translate(85, 820)">
-    <text y="0" class="label">TECH STACK:</text>
-    <rect x="0" y="15" width="130" height="32" fill="#1c2128" rx="4"/>
-    <text x="10" y="37" class="tech-tag">Python</text>
-    
-    <rect x="145" y="15" width="100" height="32" fill="#1c2128" rx="4"/>
-    <text x="155" y="37" class="tech-tag">HTML/CSS</text>
-    
-    <rect x="260" y="15" width="75" height="32" fill="#1c2128" rx="4"/>
-    <text x="270" y="37" class="tech-tag">TypeScript</text>
-    
-    <rect x="350" y="15" width="80" height="32" fill="#1c2128" rx="4"/>
-    <text x="360" y="37" class="tech-tag">C#/Unity</text>
-    
-    <rect x="445" y="15" width="110" height="32" fill="#1c2128" rx="4"/>
-    <text x="455" y="37" class="tech-tag">Data Analysis</text>
-    
-    <rect x="570" y="15" width="140" height="32" fill="#1c2128" rx="4"/>
-    <text x="580" y="37" class="tech-tag">ML/MagicLeap</text>
-  </g>
-
-  <!-- About Section -->
-  <rect x="60" y="1040" width="1080" height="200" class="card-bg" class="border" rx="8"/>
-  <text x="85" y="1070" class="section-title">👤 ABOUT</text>
-  
-  <text x="85" y="1100" class="text">Passionate Computer Engineer building systems that are understandable, reliable,</text>
-  <text x="85" y="1120" class="text">and elevated. Well-rounded across the full stack with strong backend expertise.</text>
-  
-  <text x="85" y="1155" class="text">📌 Currently: Product Management Intern @ Construct Connect (Data Science)</text>
-  <text x="85" y="1175" class="text">🎯 Mentored by: Roshan Darji, Senior Data Scientist</text>
-  <text x="85" y="1195" class="text">⚡ Beyond work: Ultimate Frisbee, Statistics, Data Visualization</text>
-
-  <!-- Footer -->
-  <rect y="1260" width="1200" height="140" class="header-bg" class="border"/>
-  
-  <text x="60" y="1300" class="section-title">📞 GET IN TOUCH</text>
-  
-  <rect x="60" y="1320" width="200" height="40" fill="#238636" rx="4"/>
-  <text x="75" y="1345" class="text" fill="white" font-weight="600">✉️ Email</text>
-  
-  <rect x="280" y="1320" width="200" height="40" fill="#1c2128" class="border" rx="4"/>
-  <text x="295" y="1345" class="text" font-weight="600">📂 GitHub: nguillet23</text>
-  
-  <rect x="500" y="1320" width="200" height="40" fill="#1c2128" class="border" rx="4"/>
-  <text x="515" y="1345" class="text" font-weight="600">💼 LinkedIn Profile</text>
-
-  <text x="60" y="1385" class="label">© 2026 Nicholas Guillet. All rights reserved.</text>
+  <!-- Links -->
+  <text x="60" y="265" class="links-text">
+    <tspan class="accent">→</tspan>
+    <tspan fill="#79c0ff" font-weight="600"> Email</tspan>
+    <tspan fill="#8b949e"> · </tspan>
+    <tspan fill="#79c0ff" font-weight="600">LinkedIn</tspan>
+    <tspan fill="#8b949e"> · </tspan>
+    <tspan fill="#79c0ff" font-weight="600">Portfolio</tspan>
+  </text>
 </svg>

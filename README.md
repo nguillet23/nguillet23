@@ -1,21 +1,21 @@
-# Nicholas Guillet
-
-**Computer Engineer** at Villanova University • Interested in Backend Development
+![Nicholas Guillet Profile](nicholas_guillet_animated.svg)
 
 ---
 
 ## About
 
-Outside of coding and working on other side projects, I play competitive Ultimate Frisbee
+I'm passionate about building systems that solve real problems. I spend most of my time thinking about data pipelines, backend architecture, and how to make complex things understandable.
+
+Outside of code, I play competitive Ultimate Frisbee—it's taught me a lot about strategy and performance analysis, which often ends up inspiring my projects.
 
 ---
 
-## Tech
+## What I'm Into
 
-Python • TypeScript • React • Node.js • PostgreSQL
+Data engineering, machine learning applications, building tools that actually save people time, and exploring emerging tech like extended reality.
 
 ---
 
-## Contact
+## Reach Out
 
-**[Email](mailto:nguillet@villanova.edu) · [LinkedIn](https://www.linkedin.com/in/nicholas-guillet/) · [Portfolio](https://nguillet23.github.io/GuilletPersonalWebsite/)**
+Questions? Ideas? Just want to chat? Feel free to get in touch!
