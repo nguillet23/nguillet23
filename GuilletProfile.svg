@@ -1,15 +1,6 @@
-<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 580" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      
       @keyframes slideInLeft {
         from {
           opacity: 0;
@@ -32,36 +23,6 @@
         }
       }
       
-      @keyframes glowPulse {
-        0% {
-          opacity: 1;
-        }
-        50% {
-          opacity: 0.7;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-      
-      @keyframes subtleGlow {
-        0%, 100% {
-          filter: drop-shadow(0 0 0px #58a6ff);
-        }
-        50% {
-          filter: drop-shadow(0 0 8px #58a6ff);
-        }
-      }
-      
-      @keyframes buttonGlow {
-        0%, 100% {
-          filter: drop-shadow(0 0 0px #58a6ff);
-        }
-        50% {
-          filter: drop-shadow(0 0 12px #58a6ff);
-        }
-      }
-      
       @keyframes floatingBar {
         0%, 100% {
           transform: translateY(0px);
@@ -71,16 +32,6 @@
         }
       }
       
-      @keyframes textUnderline {
-        0% {
-          stroke-dashoffset: 100;
-        }
-        100% {
-          stroke-dashoffset: 0;
-        }
-      }
-      
-
       
       .bg { fill: #0d1117; }
       .border { stroke: #30363d; stroke-width: 1; }
@@ -105,10 +56,6 @@
       }
       .accent { 
         fill: #58a6ff;
-        animation: glowPulse 2s ease-in-out infinite;
-      }
-      .accent { 
-        fill: #58a6ff;
         animation: floatingBar 3s ease-in-out infinite;
       }
       .tech-text {
@@ -116,22 +63,6 @@
         font-size: 15px; 
         fill: #8b949e;
         animation: slideInUp 0.8s ease-out 0.45s both;
-      }
-      .links-text {
-        font-family: 'Segoe UI', Arial, sans-serif; 
-        font-size: 15px;
-        animation: slideInUp 0.8s ease-out 0.6s both;
-      }
-      a {
-        cursor: pointer;
-      }
-      a:hover .button-rect {
-        stroke: #58a6ff;
-        stroke-width: 1.5;
-        animation: buttonGlow 0.6s ease-in-out infinite;
-      }
-      a:hover text {
-        fill: #58a6ff;
       }
       .divider {
         stroke: #30363d;
@@ -162,8 +93,8 @@
   </defs>
 
   <!-- Background -->
-  <rect width="800" height="700" class="bg"/>
-  <rect width="800" height="700" class="border"/>
+  <rect width="800" height="620" class="bg"/>
+  <rect width="800" height="620" class="border"/>
 
   <!-- Accent bar with pulsing glow -->
   <rect width="800" height="4" class="accent"/>
@@ -172,51 +103,30 @@
   <text x="60" y="80" class="name">Nicholas Guillet</text>
   
   <text x="60" y="130" class="subtitle">Computer Engineer @ Villanova</text>
-  <text x="60" y="160" class="text">Backend Development • Data Engineering • Systems Design</text>
+  <text x="60" y="160" class="text">Data Science • AI/ML Engineering • Analytics</text>
   
   <!-- Divider -->
   <line x1="60" y1="185" x2="740" y2="185" class="divider"/>
   
   <!-- Tech badges -->
-  <text x="60" y="225" class="tech-text">Python • TypeScript • React • Node.js • PostgreSQL</text>
+  <text x="60" y="225" class="tech-text">Python • TensorFlow • PyTorch • Scikit-learn • SQL</text>
   
-  <!-- Links as Buttons -->
-  <!-- Email Button -->
-  <a href="mailto:nguillet@villanova.edu" target="_self">
-    <rect x="60" y="245" width="90" height="35" fill="rgba(88, 166, 255, 0.05)" stroke="#30363d" stroke-width="1" rx="4" class="button-rect" style="cursor: pointer;"/>
-    <text x="105" y="266" font-weight="600" fill="#79c0ff" font-size="14" text-anchor="middle" style="cursor: pointer; pointer-events: none;">✉️ Email</text>
-  </a>
-  
-  <!-- LinkedIn Button -->
-  <a href="https://www.linkedin.com/in/nicholas-guillet/" target="_blank">
-    <rect x="165" y="245" width="100" height="35" fill="rgba(88, 166, 255, 0.05)" stroke="#30363d" stroke-width="1" rx="4" class="button-rect" style="cursor: pointer;"/>
-    <text x="215" y="266" font-weight="600" fill="#79c0ff" font-size="14" text-anchor="middle" style="cursor: pointer; pointer-events: none;">💼 LinkedIn</text>
-  </a>
-  
-  <!-- Portfolio Button -->
-  <a href="https://nguillet23.github.io/GuilletPersonalWebsite/" target="_blank">
-    <rect x="280" y="245" width="110" height="35" fill="rgba(88, 166, 255, 0.05)" stroke="#30363d" stroke-width="1" rx="4" class="button-rect" style="cursor: pointer;"/>
-    <text x="335" y="266" font-weight="600" fill="#79c0ff" font-size="14" text-anchor="middle" style="cursor: pointer; pointer-events: none;">🔗 Portfolio</text>
-  </a>
-
   <!-- About Section -->
-  <text x="60" y="320" class="section-title">About</text>
-  <text x="60" y="350" class="section-content">I'm passionate about building systems that solve real problems. I spend most of my</text>
-  <text x="60" y="370" class="section-content">time thinking about data pipelines, backend architecture, and how to make complex</text>
-  <text x="60" y="390" class="section-content">things understandable.</text>
+  <text x="60" y="280" class="section-title">About</text>
+  <text x="60" y="310" class="section-content">Data scientist and ML engineer passionate about building intelligent systems that</text>
+  <text x="60" y="330" class="section-content">solve real problems. I specialize in model optimization, data pipelines, and turning</text>
+  <text x="60" y="350" class="section-content">complex data into actionable insights.</text>
+  <text x="60" y="370" class="section-content">When I'm not coding, I'm playing Ultimate Frisbee or building statistical models.</text>
   
-  <text x="60" y="420" class="section-content">Outside of code, I play competitive Ultimate Frisbee—it's taught me a lot about</text>
-  <text x="60" y="440" class="section-content">strategy and performance analysis, which often ends up inspiring my projects.</text>
 
   <!-- What I'm Into Section -->
-  <text x="60" y="480" class="section-title">What I'm Into</text>
-  <text x="60" y="510" class="section-content">Data engineering, machine learning applications, building tools that actually save</text>
-  <text x="60" y="530" class="section-content">people time, and exploring emerging tech like extended reality.</text>
+  <text x="60" y="400" class="section-title">What I'm Into</text>
+  <text x="60" y="430" class="section-content">Machine learning model optimization, statistical analysis, data visualization,</text>
+  <text x="60" y="450" class="section-content">and building end-to-end ML systems. Also passionate about sports analytics.</text>
 
   <!-- Contact Section -->
-  <text x="60" y="570" class="section-title">Reach Out</text>
-  <text x="60" y="600" class="section-content">Questions? Ideas? Just want to chat? Feel free to get in touch using the buttons</text>
-  <text x="60" y="620" class="section-content">above!</text>
+  <text x="60" y="490" class="section-title">Reach Out</text>
+  <text x="60" y="520" class="section-content">Questions? Ideas? Let's connect!</text>
 
 
 
