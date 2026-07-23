@@ -1,1 +1,1 @@
-![Nicholas Guillet Profile](GuilletProfile.svg)
+[![Profile](GuilletProfile.svg)](GuilletProfile.svg)
