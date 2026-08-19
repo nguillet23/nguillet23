@@ -178,7 +178,7 @@
   <text x="60" y="80" class="name">Nicholas Guillet</text>
   
   <text x="60" y="130" class="subtitle">Computer Engineer @ Villanova</text>
-  <text x="60" y="160" class="text">Data Science • AI/ML Engineering • Analytics</text>
+  <text x="60" y="160" class="text">Software & Data Engineering • Analytics</text>
   
   <!-- Divider -->
   <line x1="60" y1="185" x2="740" y2="185" class="divider"/>
