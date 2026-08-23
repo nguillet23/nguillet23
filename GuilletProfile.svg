@@ -178,26 +178,26 @@
   <text x="60" y="80" class="name">Nicholas Guillet</text>
   
   <text x="60" y="130" class="subtitle">Computer Engineer @ Villanova</text>
-  <text x="60" y="160" class="text">Data Science • AI/ML Engineering • Analytics</text>
-  
+  <text x="60" y="160" class="text">Data Engineering • Software Engineering • Analytics</text>
+
   <!-- Divider -->
   <line x1="60" y1="185" x2="740" y2="185" class="divider"/>
-  
+
   <!-- Tech badges -->
-  <text x="60" y="225" class="tech-text">Python • TensorFlow • PyTorch • Scikit-learn • SQL</text>
-  
+  <text x="60" y="225" class="tech-text">Python • Java • JavaScript • SQL</text>
+
   <!-- About Section -->
   <text x="60" y="280" class="section-title">About</text>
-  <text x="60" y="310" class="section-content">Data scientist and ML engineer passionate about building intelligent systems that</text>
-  <text x="60" y="330" class="section-content">solve real problems. I specialize in model optimization, data pipelines, and turning</text>
-  <text x="60" y="350" class="section-content">complex data into actionable insights.</text>
-  <text x="60" y="370" class="section-content">When I'm not coding, I'm playing Ultimate Frisbee or building statistical models.</text>
-  
+  <text x="60" y="310" class="section-content">Software engineer passionate about building scalable systems that solve real</text>
+  <text x="60" y="330" class="section-content">problems. I specialize in full-stack development, data pipelines, and turning</text>
+  <text x="60" y="350" class="section-content">complex requirements into clean, maintainable code.</text>
+  <text x="60" y="370" class="section-content">When I'm not coding, I'm playing Ultimate Frisbee or working on side projects.</text>
+
 
   <!-- What I'm Into Section -->
   <text x="60" y="400" class="section-title">What I'm Into</text>
-  <text x="60" y="430" class="section-content">Machine learning model optimization, statistical analysis, data visualization,</text>
-  <text x="60" y="450" class="section-content">and building end-to-end ML systems. Also passionate about sports analytics.</text>
+  <text x="60" y="430" class="section-content">Software architecture, distributed systems, clean code practices,</text>
+  <text x="60" y="450" class="section-content">and building end-to-end applications. Also passionate about sports analytics.</text>
 
   <!-- Contact Section -->
   <text x="60" y="490" class="section-title">Reach Out</text>
